@@ -1,0 +1,5 @@
+{
+  "DefaultEngine": "DesignPatterns.Creational.SimpleFactory.Implementations.DefaultEngine",
+  "DieselEngine": "DesignPatterns.Creational.SimpleFactory.Implementations.DieselEngine",
+  "PetrolEngine": "DesignPatterns.Creational.SimpleFactory.Implementations.PetrolEngine"
+}
