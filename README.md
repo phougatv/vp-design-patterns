@@ -13,7 +13,8 @@ The design patterns are implemented for my own learning purposes.
 
 # Classification
 1. Behavioural Patterns
- 1. asdf 
- 2. asdfdsaf
+    1. asdf
+    2. asdfasdf
+    3. asdfasdf
 3. Creational Patterns
 4. Structural Patterns
