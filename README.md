@@ -74,6 +74,10 @@ The design patterns are implemented for my own learning purposes.
 > When one needs different objects based on different inputs.<br>
 
 ### 1.2 Factory Method Pattern
+**_What?_**
+
+**_When_**
+
 ### 1.3 Abstract Factory Pattern
 ### 1.4 Singleton Pattern
 ### 1.5 Builder Pattern
