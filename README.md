@@ -2,8 +2,13 @@
 The design patterns are implemented for my own learning purposes.
 
 **_What?_**
+> Design patterns are reusable design level solutions for recurring software problems.
+> They are guidelines, a blueprint about how one should approach a specific challenge.
 
 **_Why?_**
+> - Robustness→ They are battle tested and proven paradigm.
+> - Enhances Software Development→ Better understanding of design patterns and when to use which pattern, speeds up the development process.
+> - Simplifying Software Development→ They take the reponsibility away from the developer (Creational patterns→ takes the repsonsibility of object creation), so that, developers can focus on achieving their end result.
 
 **_When?_**
 
