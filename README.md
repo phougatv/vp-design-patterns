@@ -16,5 +16,5 @@ The design patterns are implemented for my own learning purposes.
     1. asdf
     2. asdfasdf
     3. asdfasdf
-3. Creational Patterns
-4. Structural Patterns
+2. Creational Patterns
+3. Structural Patterns
