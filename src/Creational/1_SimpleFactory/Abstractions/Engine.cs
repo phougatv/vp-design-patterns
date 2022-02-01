@@ -1,4 +1,7 @@
-﻿namespace DesignPatterns.Creational.SimpleFactory.Abstractions;
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("DesignPattern.Creational.SimpleFactory.Test")]
+namespace DesignPatterns.Creational.SimpleFactory.Abstractions;
 
 using System;
 
