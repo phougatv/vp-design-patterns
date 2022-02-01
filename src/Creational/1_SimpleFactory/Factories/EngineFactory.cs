@@ -11,10 +11,10 @@ public class EngineFactory
 {
     private static readonly IDictionary<EngineType, String> _engineTypeMap = FileReader.ReadConfigFile<EngineType, String>();
 
-    public static Engine GetEngine(EngineType engineType)
-        => InternalGetEngine(engineType);
+    public static Engine BuildEngine(EngineType engineType)
+        => InternalBuildEngine(engineType);
 
-    private static Engine InternalGetEngine(EngineType engineType)
+    private static Engine InternalBuildEngine(EngineType engineType)
     {
         if (!engineType.IsValid())
             Throw.ArgumentOutOfRangeException(nameof(engineType), $"{engineType} is invalid.");

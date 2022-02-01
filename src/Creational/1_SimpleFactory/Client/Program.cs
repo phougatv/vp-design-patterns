@@ -16,7 +16,7 @@ internal class Program
         WriteLine("---- ---- Engine creation begins... ---- ----");
 
         var engineTypeKey = engineKey.GetEnumValue<EngineType>();
-        var engine = EngineFactory.GetEngine(engineTypeKey);
+        var engine = EngineFactory.BuildEngine(engineTypeKey);
         WriteLine($"{engine.GetEngineDetails()}");
 
         WriteLine("---- ---- Engine created... ---- ----");
