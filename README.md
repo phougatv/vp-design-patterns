@@ -67,7 +67,7 @@ The design patterns are implemented for my own learning purposes.
 ### 1.1 Simple Factory Pattern
 **_What?_**
 > A factory class with a method that returns different implementations wrapped in a same base type, based on the input provided.<br>
-> For example→ `EngineFactory.cs`, it moves the object creation mechanism to one centralized class otherwise known as factory and thus removes the need to use the `new` keyword from the client classes.
+> For example→ `EngineFactory.cs`([link](https://github.com/phougatv/vp-design-patterns/blob/master/src/Creational/1_SimpleFactory/Factories/EngineFactory.cs)), it moves the object creation mechanism to one centralized class otherwise known as factory and thus removes the need to use the `new` keyword from the client classes.
 > In future if you want the factory to return another type that inherits/implements the same base type, you have to add one more else if clause or case statement in the factory class without disturbing existing code at any other client location.
 
 **_When?_**
