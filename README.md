@@ -48,6 +48,22 @@ The design patterns are implemented for my own learning purposes.
     11. Visitor Pattern
 ***
 ## Creational Pattern
+**_What?_**
+> The design patterns that deal with the object creation mechanism are called Creational design-patterns/Creational patterns.<br>
+> They aim to separate a system from how its objects are created, composed, and represented.<br>
+> They have 2 dominant ideas:
+> - Encapsulating the knowledge about which concrete classes system uses.
+> - Hiding how instances of these concrete classes are created and combined.
+
+**_Why?_**
+> The basic form of object creations, using the new keyword for example→ `var objectOfSomeType = new SomeType();`, could result in design problems or added complexity in design.
+> Creational patterns solve this problem by controlling this object creations in one way or other.
+
+**_When?_**
+> A system should be independent of how its objects and products are created.<br>
+> There must be a single instace and client can access this instance at all times.<br>
+> Hiding the implementations of a class library, revealing only their interfaces. The class instantiations are specified at run-time.
+
 ### 1.1 Simple Factory Pattern
 ### 1.2 Factory Method Pattern
 ### 1.3 Abstract Factory Pattern
