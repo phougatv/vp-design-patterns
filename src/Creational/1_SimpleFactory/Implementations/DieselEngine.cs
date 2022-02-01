@@ -27,9 +27,6 @@ internal class DieselEngine : Engine
 
     #region Public Methods
     /// <summary> Prints the fuel type. </summary>
-    public override String GetFuelTypeMessage() => $"{nameof(DieselEngine)}: Fuel type is {FuelType}.";
-
-    /// <summary> Prints the number of cylinders. </summary>
-    public override String GetCylinderMessage() => $"{nameof(DieselEngine)}: Number of cylinders is {Cylinders}.";
+    public override String GetEngineDetails() => $"{nameof(DieselEngine)}: Fuel type is {FuelType} and has {Cylinders} cylinders.";
     #endregion Public Methods
 }

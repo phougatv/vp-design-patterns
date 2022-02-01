@@ -40,8 +40,7 @@ public abstract class Engine : IEquatable<Engine>
     #endregion Protected Static Methods
 
     #region Public Abstract Methods
-    public abstract String GetFuelTypeMessage();
-    public abstract String GetCylinderMessage();
+    public abstract String GetEngineDetails();
     #endregion Public Abstract Methods
 
     #region Overriding Equals and GetHashCode Methods

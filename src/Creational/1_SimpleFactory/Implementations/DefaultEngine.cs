@@ -13,9 +13,6 @@ internal class DefaultEngine : Engine
 
     #region Public Methods
     /// <summary> Prints the fuel type. </summary>
-    public override String GetFuelTypeMessage() => $"{nameof(DefaultEngine)}: Fuel type is {FuelType}.";
-
-    /// <summary> Prints the number of cylinders. </summary>
-    public override String GetCylinderMessage() => $"{nameof(DefaultEngine)}: Number of cylinders is {Cylinders}.";
+    public override String GetEngineDetails() => $"{nameof(DefaultEngine)}: Fuel type is {FuelType} and has {Cylinders} cylinders.";
     #endregion Public Methods
 }

@@ -25,8 +25,7 @@ internal class Program
         var engine = cylinders == 0 ?
             EngineFactory.GetEngine(engineTypeKey):
             EngineFactory.GetEngine(engineTypeKey, cylinders);
-        WriteLine($"{engine.GetFuelTypeMessage()}");
-        WriteLine($"{engine.GetCylinderMessage()}");
+        WriteLine($"{engine.GetEngineDetails()}");
 
         WriteLine("---- ---- Engine created... ---- ----");
     }
