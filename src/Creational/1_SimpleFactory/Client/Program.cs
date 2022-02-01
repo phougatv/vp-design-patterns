@@ -1,8 +1,8 @@
 ﻿namespace DesignPatterns.Creational.SimpleFactory;
 
-using DesignPatterns.Creational.SimpleFactory.Enums;
-using DesignPatterns.Creational.SimpleFactory.Factories;
-using DesignPatterns.Shared.Utils;
+using DesignPattern.Creational.SimpleFactory.Enums;
+using DesignPattern.Creational.SimpleFactory.Factories;
+using DesignPattern.Shared.Utils;
 using static System.Console;
 
 internal class Program

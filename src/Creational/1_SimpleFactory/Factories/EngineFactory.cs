@@ -1,10 +1,10 @@
-﻿namespace DesignPatterns.Creational.SimpleFactory.Factories;
+﻿namespace DesignPattern.Creational.SimpleFactory.Factories;
 
-using DesignPatterns.Creational.SimpleFactory.Abstractions;
-using DesignPatterns.Creational.SimpleFactory.Enums;
-using DesignPatterns.Creational.SimpleFactory.Utils;
-using DesignPatterns.Shared.Exceptions;
-using DesignPatterns.Shared.Utils;
+using DesignPattern.Creational.SimpleFactory.Abstractions;
+using DesignPattern.Creational.SimpleFactory.Enums;
+using DesignPattern.Creational.SimpleFactory.Utils;
+using DesignPattern.Shared.Exceptions;
+using DesignPattern.Shared.Utils;
 using System;
 
 public class EngineFactory

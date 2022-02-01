@@ -1,6 +1,6 @@
-﻿namespace DesignPatterns.Creational.SimpleFactory.Implementations;
+﻿namespace DesignPattern.Creational.SimpleFactory.Implementations;
 
-using DesignPatterns.Creational.SimpleFactory.Abstractions;
+using DesignPattern.Creational.SimpleFactory.Abstractions;
 
 internal class DefaultEngine : Engine
 {

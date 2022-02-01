@@ -1,5 +1,6 @@
-﻿namespace DesignPatterns.Shared.Utils;
-using DesignPatterns.Shared.Exceptions;
+﻿namespace DesignPattern.Shared.Utils;
+
+using DesignPattern.Shared.Exceptions;
 using Newtonsoft.Json;
 
 public class FileReader

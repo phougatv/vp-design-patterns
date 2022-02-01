@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Shared.Utils;
+﻿namespace DesignPattern.Shared.Utils;
 
 using System;
 using System.Collections.Generic;
@@ -40,7 +40,7 @@ public struct HashCode : IEquatable<HashCode>
     #region Public Equals Methods
     public Boolean Equals(HashCode hashCode) => _value.Equals(hashCode._value);
 
-    public override Boolean Equals(Object? obj) => (obj is HashCode code) && Equals(code);
+    public override Boolean Equals(Object? obj) => obj is HashCode code && Equals(code);
     #endregion
 
     #region Added recently
@@ -77,7 +77,7 @@ public struct HashCode : IEquatable<HashCode>
         unchecked
         {
             // Code copied from System.Tuple so it must be the best way to combine hash codes or at least a good one.
-            return ((h1 << 5) + h1) ^ h2;
+            return (h1 << 5) + h1 ^ h2;
         }
     }
 

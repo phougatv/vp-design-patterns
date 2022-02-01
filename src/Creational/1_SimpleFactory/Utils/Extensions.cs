@@ -1,6 +1,6 @@
-﻿namespace DesignPatterns.Creational.SimpleFactory.Utils;
+﻿namespace DesignPattern.Creational.SimpleFactory.Utils;
 
-using DesignPatterns.Creational.SimpleFactory.Enums;
+using DesignPattern.Creational.SimpleFactory.Enums;
 
 internal static class Extensions
 {

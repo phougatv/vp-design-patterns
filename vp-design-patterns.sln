@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_SimpleFactory", "1_SimpleFactory", "{FD8FA966-E00B-4E5F-8EE7-42A9F00BFCA0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.SimpleFactory", "src\Creational\1_SimpleFactory\DesignPatterns.Creational.SimpleFactory.csproj", "{2A032F0E-04A7-4F74-8185-CE7A662DA0B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Creational.SimpleFactory", "src\Creational\1_SimpleFactory\DesignPattern.Creational.SimpleFactory.csproj", "{2A032F0E-04A7-4F74-8185-CE7A662DA0B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{83778C64-67FD-4958-B5F8-AE23BF39F98B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Shared", "src\Shared\DesignPatterns.Shared\DesignPatterns.Shared.csproj", "{BDF8EF0C-981A-4FB6-9DB1-03869351625D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Shared", "src\Shared\DesignPatterns.Shared\DesignPattern.Shared.csproj", "{BDF8EF0C-981A-4FB6-9DB1-03869351625D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{D1520618-E8F8-4609-AEE1-D981D098ECFC}"
 EndProject

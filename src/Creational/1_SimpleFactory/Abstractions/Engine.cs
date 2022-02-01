@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 
 [assembly: InternalsVisibleTo("DesignPattern.Creational.SimpleFactory.Test")]
-namespace DesignPatterns.Creational.SimpleFactory.Abstractions;
+namespace DesignPattern.Creational.SimpleFactory.Abstractions;
 
 using System;
 
@@ -50,11 +50,11 @@ public abstract class Engine : IEquatable<Engine>
     /// <summary> Compares the instances of engines. </summary>
     /// <param name="obj">The obj.</param>
     /// <returns>True if equal, false otherwise.</returns>
-    public override Boolean Equals(Object? obj) => (obj is Engine engine) && Equals(engine);
+    public override Boolean Equals(Object? obj) => obj is Engine engine && Equals(engine);
 
     /// <summary> Gets the hash code. </summary>
     /// <returns></returns>
-    public override Int32 GetHashCode() => DesignPatterns.Shared.Utils.HashCode.Of(Cylinders).And(FuelType);
+    public override Int32 GetHashCode() => Shared.Utils.HashCode.Of(Cylinders).And(FuelType);
     #endregion Overriding Equals and GetHashCode Methods
 
     #region Public Virtual Methods

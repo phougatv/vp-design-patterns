@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.SimpleFactory.Enums;
+﻿namespace DesignPattern.Creational.SimpleFactory.Enums;
 public enum EngineType
 {
     DefaultEngine = 0,

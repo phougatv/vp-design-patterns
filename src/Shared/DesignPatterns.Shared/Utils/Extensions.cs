@@ -1,6 +1,6 @@
-﻿namespace DesignPatterns.Shared.Utils;
+﻿namespace DesignPattern.Shared.Utils;
 
-using DesignPatterns.Shared.Exceptions;
+using DesignPattern.Shared.Exceptions;
 
 public static class Extensions
 {

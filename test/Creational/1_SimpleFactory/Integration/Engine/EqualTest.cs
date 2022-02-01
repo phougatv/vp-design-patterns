@@ -1,10 +1,10 @@
 ﻿namespace DesignPattern.Creational.SimpleFactory.Test.Integration.Engine;
 
-using DesignPatterns.Creational.SimpleFactory.Enums;
-using DesignPatterns.Creational.SimpleFactory.Abstractions;
-using DesignPatterns.Creational.SimpleFactory.Implementations;
+using DesignPattern.Creational.SimpleFactory.Abstractions;
+using DesignPattern.Creational.SimpleFactory.Enums;
+using DesignPattern.Creational.SimpleFactory.Factories;
+using DesignPattern.Creational.SimpleFactory.Implementations;
 using Xunit;
-using DesignPatterns.Creational.SimpleFactory.Factories;
 
 public class EqualTest
 {

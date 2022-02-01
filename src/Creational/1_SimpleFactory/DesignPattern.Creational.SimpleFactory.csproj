@@ -8,12 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Shared\DesignPatterns.Shared\DesignPatterns.Shared.csproj" />
+    <ProjectReference Include="..\..\Shared\DesignPatterns.Shared\DesignPattern.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <None Update="Configurations\configuration.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

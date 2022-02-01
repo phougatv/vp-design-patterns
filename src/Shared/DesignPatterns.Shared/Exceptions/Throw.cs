@@ -1,6 +1,4 @@
-﻿namespace DesignPatterns.Shared.Exceptions;
-
-
+﻿namespace DesignPattern.Shared.Exceptions;
 
 public static class Throw
 {

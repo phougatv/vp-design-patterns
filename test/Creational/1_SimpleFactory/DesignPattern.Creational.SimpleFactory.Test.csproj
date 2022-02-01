@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Creational\1_SimpleFactory\DesignPatterns.Creational.SimpleFactory.csproj" />
+    <ProjectReference Include="..\..\..\src\Creational\1_SimpleFactory\DesignPattern.Creational.SimpleFactory.csproj" />
   </ItemGroup>
 
 </Project>
