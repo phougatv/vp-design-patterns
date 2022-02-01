@@ -10,21 +10,13 @@ internal class Program
     public static void Main(String[] args)
     {
         var engineKey = "DefaultEngine";
-        var cylinders = 0;
         if (!args.IsEmpty())
-        {
             engineKey = args[0];
-
-            if (args.Length == 2)
-                cylinders = Int32.Parse(args[1]);
-        }
 
         WriteLine("---- ---- Engine creation begins... ---- ----");
 
         var engineTypeKey = engineKey.GetEnumValue<EngineType>();
-        var engine = cylinders == 0 ?
-            EngineFactory.GetEngine(engineTypeKey):
-            EngineFactory.GetEngine(engineTypeKey, cylinders);
+        var engine = EngineFactory.GetEngine(engineTypeKey);
         WriteLine($"{engine.GetEngineDetails()}");
 
         WriteLine("---- ---- Engine created... ---- ----");

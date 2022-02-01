@@ -11,15 +11,7 @@ internal class DieselEngine : Engine
     #region Public Ctors
     /// <summary> Creates an instance of <see cref="DieselEngine"/> with default number of cylinders, 4. </summary>
     public DieselEngine()
-        : this(2)
-    {
-
-    }
-
-    /// <summary> Create instances of <see cref="DieselEngine"/> class. </summary>
-    /// <param name="cylinders">The number of cylinders.</param>
-    public DieselEngine(Int32 cylinders)
-        : base(cylinders, DIESEL)
+        : base(2, DIESEL)
     {
 
     }

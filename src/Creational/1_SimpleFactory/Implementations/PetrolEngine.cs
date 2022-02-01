@@ -11,15 +11,7 @@ internal class PetrolEngine : Engine
     #region Public Ctors
     /// <summary> Creates an instance of <see cref="PetrolEngine"/> with default number of cylinders, 4. </summary>
     public PetrolEngine()
-        : this(4)
-    {
-
-    }
-
-    /// <summary> Create instances of <see cref="PetrolEngine"/> class. </summary>
-    /// <param name="cylinders">The number of cylinders.</param>
-    public PetrolEngine(Int32 cylinders)
-        : base(cylinders, PETROL)
+        : base(4, PETROL)
     {
 
     }

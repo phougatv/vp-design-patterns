@@ -12,17 +12,9 @@ public class EngineFactory
     private static readonly IDictionary<EngineType, String> _engineTypeMap = FileReader.ReadConfigFile<EngineType, String>();
 
     public static Engine GetEngine(EngineType engineType)
-        => InternalGetEngine(engineType, 0);
+        => InternalGetEngine(engineType);
 
-    public static Engine GetEngine(EngineType engineType, Int32 cylinders)
-    {
-        if (cylinders.IsNegative())
-            Throw.ArgumentOutOfRangeException(nameof(cylinders), $"{cylinders} must not be negative.");
-
-        return InternalGetEngine(engineType, cylinders);
-    }
-
-    public static Engine InternalGetEngine(EngineType engineType, Int32 cylinders)
+    private static Engine InternalGetEngine(EngineType engineType)
     {
         if (!engineType.IsValid())
             Throw.ArgumentOutOfRangeException(nameof(engineType), $"{engineType} is invalid.");
@@ -41,9 +33,7 @@ public class EngineFactory
             Throw.TypeLoadException($"Failed to load type: {fullyQualifiedClassName}.");
 #pragma warning restore CS8604 // Possible null reference argument.
 
-        var engine = ((engineType.IsDefault() || cylinders.IsZero()) ?
-            Activator.CreateInstance(type) :
-            Activator.CreateInstance(type, cylinders)) as Engine;
+        var engine = Activator.CreateInstance(type) as Engine;
 
 #pragma warning disable CS8603 // Possible null reference return.
         return engine;
