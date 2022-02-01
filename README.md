@@ -65,6 +65,14 @@ The design patterns are implemented for my own learning purposes.
 > Hiding the implementations of a class library, revealing only their interfaces. The class instantiations are specified at run-time.
 
 ### 1.1 Simple Factory Pattern
+**_What?_**
+> A factory class with a method that returns different implementations wrapped in a same base type, based on the input provided.<br>
+> For example→ `EngineFactory.cs`, it moves the object creation mechanism to one centralized class otherwise known as factory and thus removes the need to use the `new` keyword from the client classes.
+> In future if you want the factory to return another type that inherits/implements the same base type, you have to add one more else if clause or case statement in the factory class without disturbing existing code at any other client location.
+
+**_When?_**
+> When one needs different objects based on different inputs.<br>
+
 ### 1.2 Factory Method Pattern
 ### 1.3 Abstract Factory Pattern
 ### 1.4 Singleton Pattern
