@@ -11,6 +11,8 @@ The design patterns are implemented for my own learning purposes.
 > - Simplifying Software Development→ They take the reponsibility away from the developer (Creational patterns→ takes the repsonsibility of object creation), so that, developers can focus on achieving their end result.
 
 **_When?_**
+> Assume you're working on something, first try and get a simple solution together.
+> Now review it and try to find out, if it is attempting to solve an underlying problem to which a design pattern can be applied.
 
 # Technology Stack
 - C# with .NET 6.0
