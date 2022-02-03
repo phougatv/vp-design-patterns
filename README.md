@@ -19,33 +19,33 @@ The design patterns are implemented for my own learning purposes.
 - xUnit
 
 # Classification
-- [1. Creational Patterns]()
-    - [1.1 Simple Factory Pattern]()
-    - [1.2 Factory Method Pattern]()
-    - [1.3 Abstract Factory Pattern]()
-    - [1.4 Singleton Pattern]()
-    - [1.5 Builder Pattern]()
-    - [1.6 Prototype Pattern]()
-- [2. Structural Patterns]()
-    - [2.1 Adapter Pattern]()
-    - [2.2 Bridge Pattern]()
-    - [2.3 Composite Pattern]()
-    - [2.4 Decorator Pattern]()
-    - [2.5 Facade Pattern]()
-    - [2.6 Flyweight Pattern]()
-    - [2.7 Proxy Pattern]()
-3. Behavioural Patterns
-    1. Chain of Responsibility Pattern
-    2. Command Pattern
-    3. Interpreter Pattern
-    4. Iterator Pattern
-    5. Mediator Pattern
-    6. Memento Pattern
-    7. Observer Pattern
-    8. State Pattern
-    9. Startegy Pattern
-    10. Template Method Pattern
-    11. Visitor Pattern
+- [1. Creational Patterns](#1-creational-pattern)
+    - [1.1 Simple Factory Pattern](#11-simple-factory-pattern)
+    - [1.2 Factory Method Pattern](#12-factory-method-pattern)
+    - [1.3 Abstract Factory Pattern](#13-abstract-factory-pattern)
+    - [1.4 Singleton Pattern](#14-singleton-pattern)
+    - [1.5 Builder Pattern](#15-builder-pattern)
+    - [1.6 Prototype Pattern](#16-prototype-pattern)
+- [2. Structural Patterns](#2-structural-pattern)
+    - [2.1 Adapter Pattern](#21-adapter-pattern)
+    - [2.2 Bridge Pattern](#22-bridge-pattern)
+    - [2.3 Composite Pattern](#23-composite-pattern)
+    - [2.4 Decorator Pattern](#24-decorator-pattern)
+    - [2.5 Facade Pattern](#25-facade-pattern)
+    - [2.6 Flyweight Pattern](#26-flyweight-pattern)
+    - [2.7 Proxy Pattern](#27-proxy-pattern)
+- [3. Behavioral Patterns](#3-behavioral-pattern)
+    - [3.1 Chain of Responsibility Pattern](#31-chain-of-responsibility-pattern)
+    - [3.2 Command Pattern](#32-command-pattern)
+    - [3.3 Interpreter Pattern](#33-interpreter-pattern)
+    - [3.4 Iterator Pattern](#34-iterator-pattern)
+    - [3.5 Mediator Pattern](#35-mediator-pattern)
+    - [3.6 Memento Pattern](#36-memento-pattern)
+    - [3.7 Observer Pattern](#37-observer-pattern)
+    - [3.8 State Pattern](#38-state-pattern)
+    - [3.9 Strategy Pattern](#39-strategy-pattern)
+    - [3.10 Template Method Pattern](#310-template-method-pattern)
+    - [3.11 Visitor Pattern](#311-visitor-pattern)
 ***
 ## Creational Pattern
 **_What?_**
