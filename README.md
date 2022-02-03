@@ -26,14 +26,14 @@ The design patterns are implemented for my own learning purposes.
     - [1.4 Singleton Pattern]()
     - [1.5 Builder Pattern]()
     - [1.6 Prototype Pattern]()
-2. Structural Patterns
-    1. Adapter Pattern
-    2. Bridge Pattern
-    3. Composite Pattern
-    4. Decorator Pattern
-    5. Facade Pattern
-    6. Flyweight Pattern
-    7. Proxy Pattern
+- [2. Structural Patterns]()
+    - [2.1 Adapter Pattern]()
+    - [2.2 Bridge Pattern]()
+    - [2.3 Composite Pattern]()
+    - [2.4 Decorator Pattern]()
+    - [2.5 Facade Pattern]()
+    - [2.6 Flyweight Pattern]()
+    - [2.7 Proxy Pattern]()
 3. Behavioural Patterns
     1. Chain of Responsibility Pattern
     2. Command Pattern
