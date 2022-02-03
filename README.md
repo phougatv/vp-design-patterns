@@ -75,7 +75,8 @@ The design patterns are implemented for my own learning purposes.
 
 ### 1.2 Factory Method Pattern
 **_What?_**
-> Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+> **Factory Method** is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+
 **_When?_**
 
 ### 1.3 Abstract Factory Pattern
