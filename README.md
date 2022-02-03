@@ -76,7 +76,7 @@ The design patterns are implemented for my own learning purposes.
 ### 1.2 Factory Method Pattern
 **_What?_**
 
-**_When_**
+**_When?_**
 
 ### 1.3 Abstract Factory Pattern
 ### 1.4 Singleton Pattern
