@@ -1,6 +1,7 @@
 ﻿namespace DesignPattern.Shared.Utils;
 
 using DesignPattern.Shared.Exceptions;
+using Microsoft.Extensions.Configuration;
 
 public static class Extensions
 {
@@ -28,6 +29,48 @@ public static class Extensions
         return (T)Enum.ToObject(enumType, i32);
     }
     #endregion Enum Extension Methods
+
+    #region Configuration Extension Methods
+    public static IDictionary<TKey, TValue> GetMap<TKey, TValue>(this IConfiguration configuration, String sectionKey)
+        where TKey : notnull
+    {
+        if (configuration == null)
+            Throw.ArgumentNullException(nameof(configuration));
+        if (sectionKey.IsNullOrEmpty())
+            Throw.ArgumentNullException($"{nameof(sectionKey)} must not be null/empty.");
+
+        var configSectionValue = configuration.GetRequiredSection(sectionKey);
+        if (configSectionValue == null)
+            Throw.Exception($"{sectionKey} must have a value.");
+
+        return configSectionValue.Get<IDictionary<TKey, TValue>>();
+    }
+    #endregion Configuration Extension Methods
+
+    #region ConfigurationBuilder Extension Methods
+    public static IConfiguration GetConfiguration(this ConfigurationBuilder builder, String fullyQualifiedFilePathWithExtension)
+    {
+        if (builder == null)
+            Throw.ArgumentNullException(nameof(builder));
+        if (!Path.HasExtension(fullyQualifiedFilePathWithExtension))
+            Throw.Exception($"{nameof(fullyQualifiedFilePathWithExtension)} must have extension (.json, .txt etc.).");
+        
+        return builder.AddJsonFile(fullyQualifiedFilePathWithExtension).Build();
+    }
+    #endregion ConfigurationBuilder Extension Methods
+
+    #region IDictionary Extension Methods
+    public static TValue GetValue<TKey, TValue>(this IDictionary<TKey, TValue> map, TKey key)
+        where TKey : notnull
+    {
+        if (map == null)
+            Throw.ArgumentNullException(nameof(map));
+        if (map.TryGetValue(key, out var value))
+            return value;
+
+        return default;
+    }
+    #endregion IDictionary Extension Methods
 
     #region Array Extension Methods
     public static Boolean IsEmpty(this Array array) => array.Length == 0;
