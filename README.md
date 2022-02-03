@@ -82,6 +82,16 @@ The design patterns are implemented for my own learning purposes.
 > - You want to provide users of your library/framework with a way to extend its internal components.
 
 ### 1.3 Abstract Factory Pattern
+**_What?_**
+> A pattern that lets you produce families of related objects without specifying their concrete classes.
+
+**_When?_**
+> Your code needs to work with various families of related products, but you don't want it to depend on concrete classes of those products for the following reasons→
+> - They might be unknown beforehand
+> - You want to allow for future extensibility
+
+>
+
 ### 1.4 Singleton Pattern
 ### 1.5 Builder Pattern
 ### 1.6 Prototype Pattern
