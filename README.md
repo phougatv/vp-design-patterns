@@ -19,14 +19,14 @@ The design patterns are implemented for my own learning purposes.
 - xUnit
 
 # Classification
-- [1. Creational Patterns](#1-creational-pattern)
+- [1. Creational Patterns](#creational-pattern)
     - [1.1 Simple Factory Pattern](#11-simple-factory-pattern)
     - [1.2 Factory Method Pattern](#12-factory-method-pattern)
     - [1.3 Abstract Factory Pattern](#13-abstract-factory-pattern)
     - [1.4 Singleton Pattern](#14-singleton-pattern)
     - [1.5 Builder Pattern](#15-builder-pattern)
     - [1.6 Prototype Pattern](#16-prototype-pattern)
-- [2. Structural Patterns](#2-structural-pattern)
+- [2. Structural Patterns](#structural-pattern)
     - [2.1 Adapter Pattern](#21-adapter-pattern)
     - [2.2 Bridge Pattern](#22-bridge-pattern)
     - [2.3 Composite Pattern](#23-composite-pattern)
@@ -34,7 +34,7 @@ The design patterns are implemented for my own learning purposes.
     - [2.5 Facade Pattern](#25-facade-pattern)
     - [2.6 Flyweight Pattern](#26-flyweight-pattern)
     - [2.7 Proxy Pattern](#27-proxy-pattern)
-- [3. Behavioral Patterns](#3-behavioral-pattern)
+- [3. Behavioral Patterns](#behavioral-pattern)
     - [3.1 Chain of Responsibility Pattern](#31-chain-of-responsibility-pattern)
     - [3.2 Command Pattern](#32-command-pattern)
     - [3.3 Interpreter Pattern](#33-interpreter-pattern)
