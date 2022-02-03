@@ -78,6 +78,8 @@ The design patterns are implemented for my own learning purposes.
 > **Factory Method** is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 **_When?_**
+> - You don't know beforehand the exact types and dependencies of the objects your code should work with.
+> - You want to provide users of your library/framework with a way to extend its internal components.
 
 ### 1.3 Abstract Factory Pattern
 ### 1.4 Singleton Pattern
