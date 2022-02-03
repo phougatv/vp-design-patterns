@@ -20,12 +20,12 @@ The design patterns are implemented for my own learning purposes.
 
 # Classification
 - [1. Creational Patterns]()
-    1. Simple Factory Pattern
-    2. Factory Method Pattern
-    3. Abstract Factory Pattern
-    4. Singleton Pattern
-    5. Builder Pattern
-    6. Prototype Pattern
+    - [1.1 Simple Factory Pattern]()
+    - [1.2 Factory Method Pattern]()
+    - [1.3 Abstract Factory Pattern]()
+    - [1.4 Singleton Pattern]()
+    - [1.5 Builder Pattern]()
+    - [1.6 Prototype Pattern]()
 2. Structural Patterns
     1. Adapter Pattern
     2. Bridge Pattern
