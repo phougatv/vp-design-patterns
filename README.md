@@ -19,7 +19,7 @@ The design patterns are implemented for my own learning purposes.
 - xUnit
 
 # Classification
-- 1. Creational Patterns
+- [1. Creational Patterns]()
     1. Simple Factory Pattern
     2. Factory Method Pattern
     3. Abstract Factory Pattern
