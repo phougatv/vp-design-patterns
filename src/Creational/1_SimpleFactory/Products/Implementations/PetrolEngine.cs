@@ -1,6 +1,6 @@
-﻿namespace DesignPattern.Creational.SimpleFactory.Implementations;
+﻿namespace DesignPattern.Creational.SimpleFactory.Products.Implementations;
 
-using DesignPattern.Creational.SimpleFactory.Abstractions;
+using DesignPattern.Creational.SimpleFactory.Products.Abstractions;
 
 internal class PetrolEngine : Engine
 {
