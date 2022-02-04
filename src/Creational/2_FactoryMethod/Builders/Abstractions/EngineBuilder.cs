@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.FactoryMethod.Factories.Abstractions;
+﻿namespace DesignPattern.Creational.FactoryMethod.Builders.Abstractions;
 
 using DesignPattern.Creational.FactoryMethod.Products.Abstractions;
 

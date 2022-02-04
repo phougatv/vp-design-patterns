@@ -1,20 +1,32 @@
 ﻿namespace DesignPattern.Creational.SimpleFactory.Factories;
-
-using DesignPattern.Creational.SimpleFactory.Abstractions;
 using DesignPattern.Creational.SimpleFactory.Enums;
+using DesignPattern.Creational.SimpleFactory.Products.Abstractions;
+using DesignPattern.Creational.SimpleFactory.Products.Implementations;
 using DesignPattern.Creational.SimpleFactory.Utils;
 using DesignPattern.Shared.Exceptions;
 using DesignPattern.Shared.Utils;
 using System;
 
-public class EngineFactory
+public class EngineBuilder
 {
     private static readonly IDictionary<EngineType, String> _engineTypeMap = FileReader.ReadConfigFile<EngineType, String>();
 
-    public static Engine BuildEngine(EngineType engineType)
-        => InternalBuildEngine(engineType);
+    public static Engine Build(EngineType engineType)
+        => InternalBuild(engineType);
 
-    private static Engine InternalBuildEngine(EngineType engineType)
+    //If another type of engine is added then add an if statement and return that type of engine.
+    private static Engine InternalBuild(EngineType engineType)
+    {
+        if (engineType.IsDiesel())
+            return new DieselEngine();
+        if (engineType.IsPetrol())
+            return new PetrolEngine();
+
+        return new DefaultEngine();
+    }
+
+    //I have used reflection in this.
+    private static Engine InternalBuildUsingReflection(EngineType engineType)
     {
         if (!engineType.IsValid())
             Throw.ArgumentOutOfRangeException(nameof(engineType), $"{engineType} is invalid.");

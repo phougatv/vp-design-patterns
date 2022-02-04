@@ -1,9 +1,8 @@
 ﻿namespace DesignPattern.Creational.SimpleFactory.Test.Integration.Engine;
-
-using DesignPattern.Creational.SimpleFactory.Abstractions;
 using DesignPattern.Creational.SimpleFactory.Enums;
 using DesignPattern.Creational.SimpleFactory.Factories;
-using DesignPattern.Creational.SimpleFactory.Implementations;
+using DesignPattern.Creational.SimpleFactory.Products.Abstractions;
+using DesignPattern.Creational.SimpleFactory.Products.Implementations;
 using Xunit;
 
 public class EqualTest
@@ -69,9 +68,9 @@ public class EqualTest
         var expectedPetrolEngine = new PetrolEngine();
 
         //Act
-        var actualDefaultEngine = EngineFactory.BuildEngine(DefaultEngine);
-        var actualDieselEngine = EngineFactory.BuildEngine(DieselEngine);
-        var actualPetrolEngine = EngineFactory.BuildEngine(PetrolEngine);
+        var actualDefaultEngine = EngineBuilder.Build(DefaultEngine);
+        var actualDieselEngine = EngineBuilder.Build(DieselEngine);
+        var actualPetrolEngine = EngineBuilder.Build(PetrolEngine);
 
         //Assert
         Assert.NotNull(expectedDefaultEngine);
